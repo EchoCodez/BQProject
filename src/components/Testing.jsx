@@ -54,40 +54,32 @@ const ProjectCard = ({
 const Testing = () => {
 	return (
 		<>
+		
 			<div>
-			<h2 className={`${styles.sectionHeadText}`}>Testing</h2>
+			<h2 className={`${styles.sectionHeadText}`}>Argument</h2>
 			</div>
 
-			<div className='w-full flex'>
-				<p
-					className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
-				>
-					Euthanaisa prevents health care spending that can be very costly for the families of the one who is dying. Because of these high costs, keeping someone alive when the person has a life-ending condition is not very cost effective, but many people still do it. This supports the fact that euthanasia is ethical because it prevents families from having to pay tens of thousands of dollars for futile efforts that just end up making the process more painful for the patient. Additionally, health insurance companies that profit off of people in the last few years of their lives have an incentive to raise life support and treatment costs, which is not only unethical, but also unfair to those families.
-				</p>
-				
-			</div>
-			<div className='w-full flex'>
-				<p
-					className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
-				>
-					Ultraviolet (UV) light, or black light, is, at its simplest form, electromagnetic radiation. 
-					It is on the very end of the visible light spectrum, and is emitted through sunlight, which 
-					is why it causes sunburns and skin cancers. Many scientists suspect that lichen glow under 
-					UV light because they release a compound that not only protects them from UV radiation, but 
-					also is used for asexual reproduction. This compound fluoresces in a variety of different colors. 
-					According to our expert discussion with Bruce McCune, secretary-treasurer of the non-profit 
-					Northwest Lichenologists, many lichens glow much stronger under short-wave UV light. However, 
-					this type of light is harmful to people's eyes. Long-wave UV light is not as effective, but 
-					must be used in our solution for safety purposes.
-				</p>
-	
-			</div>
-
-			<div className='mt-20 flex flex-wrap gap-7'>
+			<div className='mt-4 mb-12 flex flex-wrap gap-7'>
 			{projects.map((project, index) => (
 				<ProjectCard key={`project-${index}`} index={index} {...project} />
 			))}
 			</div>
+
+			<div>
+			<h2 className={`${styles.sectionHeadText}`}>Counter</h2>
+			</div>
+
+			
+			<div className='w-full flex'>
+				<p
+					className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+				>
+					While some say pain management is good enough to eliminate need for euthanasia, this is not true: A recent report from Dignity in Dying finds that palliative care can often be ineffective:  “More than four in ten healthcare professionals (43% out of 1,008 asked) have experience of caring for someone who has suffered at the end of life despite receiving high quality palliative care” (Riley and Hehir). Because there is still a lot of suffering for the patient, it is more ethical to let the patient die on their own terms and end the pain. Even those who do get pain management have to live in a hospital away from loved ones, which can be mentally debilitating.
+				</p>
+				
+			</div>
+
+			
 		</>
 	);
 };

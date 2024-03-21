@@ -22,49 +22,37 @@ export const navLinks = [
 
 const projects = [
   {
-    name: "No Light",
+    name: "Costs",
     description:
-      "An image of the tree with no light shone on it",
+      "Euthanaisa prevents health care spending that can be very costly for the families of the one who is dying.",
     tags: [
       {
-        name: "0% think most illuminated",
+        name: "don't fuel monopolies",
         color: "blue-text-gradient",
-      },
-      {
-        name: "0% think most noticeable",
-        color: "green-text-gradient",
       },
     ],
     image: nolight,
   },
   {
-    name: "Regular Light",
+    name: "Agency",
     description:
-      "An image of the tree with a regular flashlight shone on it",
+      "Euthanasia is ethical because it allows individuals more agency in their death.",
     tags: [
       {
-        name: "66.7% think most illuminated",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "37% think most noticeable",
+        name: "care is not enough",
         color: "green-text-gradient",
       },
     ],
     image: light,
   },
   {
-    name: "UV Light",
+    name: "Pets",
     description:
-      "An image of the tree with a UV flashlight shone on it",
+      "Euthanasia is ethical because it is already the societal expectation and common practice for pets.",
     tags: [
       {
-        name: "33.3% think most illuminated",
+        name: "we deserve the same",
         color: "blue-text-gradient",
-      },
-      {
-        name: "63% think most noticeable",
-        color: "green-text-gradient",
       },
     ],
     image: uvlight,
