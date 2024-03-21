@@ -56,7 +56,7 @@ const Testing = () => {
 		<>
 		
 			<div>
-			<h2 className={`${styles.sectionHeadText}`}>Argument</h2>
+			<h2 className={`${styles.sectionHeadText} text-[#319E9F]`}>Argument</h2>
 			</div>
 
 			<div className='mt-4 mb-12 flex flex-wrap gap-7'>
@@ -66,7 +66,7 @@ const Testing = () => {
 			</div>
 
 			<div>
-			<h2 className={`${styles.sectionHeadText}`}>Counter</h2>
+			<h2 className={`${styles.sectionHeadText} text-[#319E9F]`}>Counter</h2>
 			</div>
 
 			

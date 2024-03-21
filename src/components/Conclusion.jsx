@@ -16,7 +16,7 @@ const Conclusion = () => {
 			variants={slideIn("left", "tween", 0.2, 1)}
 			className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
 			>
-			<h3 className={styles.sectionHeadText}>Conclusion</h3>
+			<h3 className={`${styles.sectionHeadText} text-[#319E9F]`}>Conclusion</h3>
 			<p className={styles.sectionSubText}>
 			The pain that comes from death is unmatched, but euthanasia makes the process more ethical for everyone, whether it be the patient that can die happily or the family that can say goodbye. If pets can be put down to save them from suffering, humans should have the same luxury and be able to die happily with no concerns.
 			</p>

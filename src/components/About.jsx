@@ -10,7 +10,7 @@ const About = () => {
 	<>
 		<motion.div variants={textVariant()}>
 			<h1 className={`${styles.thingHeadText} text-white pt-10 pb-3`}>
-				<span className='text-[#915EFF]'>Is Euthanasia Ethical?</span>
+				<span className='text-[#319E9F]'>Is Euthanasia Ethical?</span>
 			</h1>
 		</motion.div>
 
