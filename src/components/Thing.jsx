@@ -15,7 +15,7 @@ const Thing = () => {
             </div>
 
             <div>
-                <h2 className={`${styles.sectionHeadText} text-[#319E9F]`}>Euthanasia is Ethical</h2>
+                <h2 className={`${styles.sectionHeadText} text-[#219E9F]`}>Euthanasia is Ethical</h2>
                 <p>Move to view from different angles.</p>
             </div>
             </div>
